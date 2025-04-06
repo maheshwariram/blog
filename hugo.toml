@@ -1,9 +1,7 @@
 baseURL = 'https://faqs.maheshwariram.com/'
 languageCode = 'en-us'
 title = 'All the FAQs'
-[module]
-  [[module.imports]]
-    path = "github.com/nanxiaobei/hugo-paper"
+theme = "paper"
 
 # [services]
 #   [services.disqus]
