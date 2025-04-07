@@ -10,9 +10,9 @@
       First published on:
       <time>{{- .Date | time.Format ":date_medium" -}}</time>
       {{ with .GitInfo }}
-        <time>{{ $t := .AuthorDate.Format "2006-4-4" }}</time>
-        <br> Last modified on:
-        {{/*  <time>{{ time.Format "Jan 2, 2006" $t }}</time>  */}}
+        {{ $t := .CommitDate.Format "2006-01-02" }}
+        <br>Last modified on:
+        <time>{{- time.Format "Jan 2, 2006" $t -}}</time>
       {{ end }}<!---->
       {{- end -}}<!---->
       {{- $single_author := or .Params.Author site.Author.name -}}
