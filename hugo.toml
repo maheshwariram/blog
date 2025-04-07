@@ -2,6 +2,14 @@ baseURL = 'https://faqs.maheshwariram.com/'
 languageCode = 'en-us'
 title = 'All the FAQs'
 theme = "paper"
+enableGitInfo = true
+enableMissingTranslationPlaceholders = true
+
+[frontmatter]
+  date = ['date', 'publishDate', 'pubdate', 'lastmod', 'modified']
+  expiryDate = ['expiryDate', 'unpublishdate']
+  lastmod = [':git', ':fileModTime']
+  publishDate = ['publishDate', 'pubdate', 'date']
 
 # [services]
 #   [services.disqus]
