@@ -114,10 +114,6 @@ params:
       # hiddenInSingle: true # hide on single page
       linkFullImages: true
 
-  analytics:
-      google:
-          SiteVerificationTag: "G-TMFME53VQM"
-
   assets:
     disableHLJS: true
     favicon: "favicon/android-chrome-512x512.png"
