@@ -1,0 +1,150 @@
+baseURL: "https://faqs.maheshwariram.com/"
+languageCode: en-us
+title: ram's blog
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: archive
+          url: archives
+          weight: 5
+        - name: search
+          url: search/
+          weight: 20
+        - name: tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: ""
+  author: ["ram"]
+  hideAuthor: true
+
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # TocOpen: true
+  # comments: false
+  images: ["images/ram-tillana.png"]
+  hidemeta: false
+
+
+  # label:
+  #   text: "home"
+  #   icon: android-chrome-512x512.png
+  #   iconHeight: 35
+
+  profileMode:
+    enabled: false
+    title: ram
+    imageUrl: "https://media.licdn.com/dms/image/v2/D4E03AQExNeVl9SIfZQ/profile-displayphoto-shrink_800_800/B4EZOcOm8oHAAc-/0/1733492896128?e=1751500800&v=beta&t=jVLsZem3TUedMQg92Yy08WlXBlde75ZMEfx75Yhc7zc"
+    imageTitle: profile pic
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: archives
+        url: archives
+      - name: tags
+        url: tags
+      - name: search
+        url: search
+
+  homeInfoParams:
+    Title: "ram's blog"
+    Content: >
+      writing stuff down.
+
+  socialIcons:
+    - name: github
+      title: github
+      url: "https://github.com/maheshwariram"
+    - name: linkedin
+      title: linkedin
+      url: "https://www.linkedin.com/in/ram/"
+
+  editPost:
+    URL: "https://github.com/maheshwariram/faqs/tree/main/content"
+    Text: "suggest changes on GitHub!"
+    appendFilePath: true
+
+  cover:
+      # hidden: true # hide everywhere but not in structured data
+      hiddenInList: true # hide on list pages and home
+      # hiddenInSingle: true # hide on single page
+      linkFullImages: true
+
+  analytics:
+      google:
+          SiteVerificationTag: "G-TMFME53VQM"
+
+  assets:
+    disableHLJS: true
+    favicon: "favicon/android-chrome-512x512.png"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    # safari_pinned_tab: "favicon/safari-pinned-tab.svg"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
+
+enableGitInfo: true
+
+frontmatter:
+  lastmod: [':git', ':fileModTime', 'lastmod', 'publishDate', 'date']
