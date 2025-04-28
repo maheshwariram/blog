@@ -1,0 +1,6 @@
+.paginav .prev,
+.paginav .next {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+}
