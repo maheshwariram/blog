@@ -66,13 +66,12 @@ params:
   ShowToc: true
   # TocOpen: true
   # comments: false
-  images: ["images/ram-tillana.png"]
+  images: ["images/r.png"]
   hidemeta: false
-
 
   # label:
   #   text: "home"
-  #   icon: android-chrome-512x512.png
+  #   icon: images/r.png
   #   iconHeight: 35
 
   profileMode:
