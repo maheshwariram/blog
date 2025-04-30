@@ -30,16 +30,16 @@ languages:
       series: series
     menu:
       main:
-        - name: archive
-          url: archives
-          weight: 5
+        # - name: archive
+        #   url: archives
+        #   weight: 5
         - name: search
           url: search/
           weight: 20
         - name: tags
           url: tags/
           weight: 10
-        - name: homepage
+        - name: home
           url: https://www.maheshwariram.com
           weight: 30
 

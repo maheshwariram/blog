@@ -1,6 +1,6 @@
 ---
 layout: search
-placeholder: does the archive have what you're looking for?
+placeholder: type here to search...
 summary: search
 title: search
 ---
