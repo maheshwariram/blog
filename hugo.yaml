@@ -39,6 +39,9 @@ languages:
         - name: tags
           url: tags/
           weight: 10
+        - name: homepage
+          url: https://www.maheshwariram.com
+          weight: 30
 
 outputs:
   home:
@@ -90,9 +93,16 @@ params:
         url: search
 
   homeInfoParams:
-    Title: "ram's blog"
-    Content: >
-      writing stuff down.
+    # Title: "ram's blog"
+    Content: |
+      interested in web design and development.<br>
+      <a href="https://www.16personalities.com/intp-personality" target="_blank" style="text-decoration: none;">introvert</a>, monomaniac, overly nostalgic.<br>
+      <br>
+      my hobbies:
+      <ul>
+       <li><a href="https://volt.fm/ram" target="_blank" style="text-decoration: none;">listening</a> to music & going to <a href="https://www.setlist.fm/user/gulabjamun" target="_blank" style="text-decoration: none;">concerts</a> </li>
+       <li> watching & playing sports </li>
+      </ul>
 
   socialIcons:
     - name: github
@@ -101,9 +111,6 @@ params:
     - name: linkedin
       title: LinkedIn
       url: "https://www.linkedin.com/in/ram/"
-    - name: spotify
-      title: Spotify
-      url: "https://open.spotify.com/user/31szfdlromdcdlddz6qx55lmbyaa?si=13e8d0e7220f4de0"
     - name: cv
       title: Resumé
       url: "https://www.dropbox.com/scl/fi/3qc0v705oe484pss79ycg/Ram-Maheshwari-Resume.pdf?rlkey=nh6lqp8krz899id9ver2f5dh2&st=gh4jslji&dl=0"
