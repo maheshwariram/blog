@@ -1,7 +1,8 @@
 ---
 date: '2025-04-04T15:49:54+02:00'
 title: TH Köln FAQ
-tags: ['faq', 'TH Köln', 'cologne']
+tags: ['faq', 'TH Köln', 'cologne', 'germany']
+url: /thfaq/
 ---
 
 consists of QnAs related to [TH Köln](https://www.th-koeln.de/en/) and the [TH Buddy Program](https://www.th-koeln.de/en/international_office/th-koeln-buddy-program_101414.php)

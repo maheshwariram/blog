@@ -1,12 +1,13 @@
 ---
 date: '2025-04-07T02:28:35+02:00'
 title: France FAQ
-tags: ['epita', 'paris', 'semester exchange', 'france', 'srm']
+tags: ['faq', 'epita', 'paris', 'semester exchange', 'france', 'srm']
+url: /francefaq/
 ---
 
 ### COL
 
-(similar to my answer for the same question in [Germany FAQs](../germanyFAQ)):
+(similar to my answer for the same question in [Germany FAQs](/germanyfaq)):
 
 varies vastly on your lifestyle.
 

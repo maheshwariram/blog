@@ -3,11 +3,12 @@ date: '2025-04-04T15:49:54+02:00'
 title: Germany FAQ
 tags: ['faq', 'cologne', 'germany']
 weight: 1
+url: /germanyfaq/
 ---
 
 ### TH Köln-specific questions?
 
-please have a look at the [TH FAQs](../thFAQ).
+please have a look at the [TH FAQs](/thfaq).
 
 ### accommodation
 
