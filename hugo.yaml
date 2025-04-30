@@ -96,11 +96,20 @@ params:
 
   socialIcons:
     - name: github
-      title: github
+      title: GitHub
       url: "https://github.com/maheshwariram"
     - name: linkedin
-      title: linkedin
+      title: LinkedIn
       url: "https://www.linkedin.com/in/ram/"
+    - name: spotify
+      title: Spotify
+      url: "https://open.spotify.com/user/31szfdlromdcdlddz6qx55lmbyaa?si=13e8d0e7220f4de0"
+    - name: cv
+      title: Resumé
+      url: "https://www.dropbox.com/scl/fi/3qc0v705oe484pss79ycg/Ram-Maheshwari-Resume.pdf?rlkey=nh6lqp8krz899id9ver2f5dh2&st=gh4jslji&dl=0"
+    - name: calendar
+      title: Calendly
+      url: "https://calendly.com/maheshworry/30min"
 
   editPost:
     URL: "https://github.com/maheshwariram/faqs/tree/main/content"
