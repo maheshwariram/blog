@@ -109,6 +109,9 @@ params:
     - name: cv
       title: Resumé
       url: "https://www.dropbox.com/scl/fi/3qc0v705oe484pss79ycg/Ram-Maheshwari-Resume.pdf?rlkey=nh6lqp8krz899id9ver2f5dh2&st=gh4jslji&dl=0"
+    - name: email
+      title: email
+      url: "mailto:contact@maheshwariram.com"
     - name: calendar
       title: Calendly
       url: "https://calendly.com/maheshworry/30min"
