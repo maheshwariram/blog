@@ -72,10 +72,10 @@ params:
   images: ["images/r.png"]
   hidemeta: false
 
-  # label:
-  #   text: "home"
-  #   icon: images/r.png
-  #   iconHeight: 35
+  label:
+    text: ""
+    icon: images/r.png
+    iconHeight: 35
 
   profileMode:
     enabled: false
@@ -95,14 +95,9 @@ params:
   homeInfoParams:
     # Title: "ram's blog"
     Content: |
-      interested in web design and development.<br>
-      <a href="https://www.16personalities.com/intp-personality" target="_blank" style="text-decoration: none;">introvert</a>, monomaniac, overly nostalgic.<br>
+      i like watching & playing sports,<br>
+      <a href="https://volt.fm/ram" target="_blank" style="text-decoration: none;">listening</a> to music, and going to <a href="https://www.setlist.fm/user/gulabjamun" target="_blank" style="text-decoration: none;">concerts</a><br>
       <br>
-      my hobbies:
-      <ul>
-       <li><a href="https://volt.fm/ram" target="_blank" style="text-decoration: none;">listening</a> to music & going to <a href="https://www.setlist.fm/user/gulabjamun" target="_blank" style="text-decoration: none;">concerts</a> </li>
-       <li> watching & playing sports </li>
-      </ul>
 
   socialIcons:
     - name: github
